@@ -1,0 +1,68 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+
+body {
+  margin: 0px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  height: 100vh;
+  background-image: linear-gradient(to top,rgb(146, 156, 138),bisque);
+
+}
+
+.sub-container {
+  display: flex;
+  /* border: 2px solid green; */
+  background-color: rgb(171, 233, 233);
+  min-height: 30vh;
+  padding: 20px;
+  border-radius: 22px;
+}
+
+.input-container {
+  /* border: 2px solid black; */
+  padding: 10px;
+  margin: px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 18px;
+  font
+}
+
+input {
+  padding: 10px 30px 10px 9px;
+  width: 80%;
+  cursor: none;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+}
+
+.submit-btn-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.submit-btn {
+  padding: 10px 20px 10px 20px;
+  background-color: blue;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+ 
+}
